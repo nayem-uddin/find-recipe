@@ -28,14 +28,16 @@ export const FoodDetails = ({ foodId }) => {
           {recipe.vegan ? "Vegan" : "Non-vegan"} <br />
           Price per serving: ${recipe.pricePerServing / 100}
         </p>
-        <div>
+        {/* <div>
           <h4>Ingredients:</h4>
           <ul>
             {recipe.extendedIngredients.map((item) => (
-              <li>{item.original}</li>
+              <li>
+                {item.name}: {item.amount} {item.unit}
+              </li>
             ))}
           </ul>
-        </div>
+        </div> */}
         <div>
           <h4>Instructions:</h4>
           {isLoading ? (
