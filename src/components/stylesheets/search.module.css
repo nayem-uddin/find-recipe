@@ -1,0 +1,13 @@
+.searchContainer {
+  margin: 30px auto;
+  width: 300px;
+  position: relative;
+}
+.searchBar {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+}
